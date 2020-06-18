@@ -1,0 +1,33 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color:white;
+  }
+  
+  html, body {
+    box-sizing: border-box;
+    background-color:white;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container > div:nth-child(1n) {
+    background-color:gray;	
+  }
+  
+  .container > div:nth-child(3n) {
+    background-color: darkgray;
+  }
+  
+  .container > div:nth-child(2n) {
+    background-color: rgb(88, 88, 88);
+  }
+  
+  .container > div:nth-child(4n) {
+    background-color: #3f3f3e;
+  }
+  
